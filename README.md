@@ -114,10 +114,6 @@ last will be the one used when running the example.
 $ npm run build:program-rust
 ```
 
-```bash
-$ npm run build:program-c
-```
-
 ### Deploy the on-chain program
 
 ```bash
@@ -164,7 +160,7 @@ Success
 ### Customizing the Program
 
 To customize the example, make changes to the files under `/src`.  If you change
-any files under `/src/program-rust` or `/src/program-c` you will need to
+any files under `/src/program-rust` you will need to
 [rebuild the on-chain program](#build-the-on-chain-program) and [redeploy the program](#deploy-the-on-chain-program).
 
 Now when you rerun `npm run start`, you should see the results of your changes.
